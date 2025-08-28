@@ -1,0 +1,52 @@
+=== Shamir's Secret Sharing Solver ===
+
+Test files created: testcase1.json and testcase2.json
+=== Test Case 1 ===
+Parsed data: n=4, k=3
+Points after decoding:
+  (1, 4)
+  (2, 7)
+  (3, 12)
+  (6, 39)
+Secret (c): 3
+
+==================================================       
+
+=== Test Case 2 ===
+Parsed data: n=10, k=7
+Points after decoding:
+  (1, 995085094601491)
+  (2, 21394886326566393)
+  (3, 196563650089608567)
+  (4, 1016509518118225951)
+  (5, 3711974121218449851)
+  (6, 10788619898233492461)
+  (7, 26709394976508342463)
+  (8, 58725075613853308713)
+  (9, 117852986202006511971)
+  (10, 220003896831595324801)
+Secret (c): 79836264049851
+
+=== Instructions ===
+1. The program reads JSON files containing encoded polynomial roots
+2. It decodes y-values from different bases to decimal   
+3. Uses Lagrange interpolation to find the polynomial's constant term
+4. The secret is the value of the polynomial at x=0 (constant term)
+5. Only the first 'k' points are needed to solve the polynomial
+PS C:\Users\JAHNVI SAXENA\Desktop\projects\22BCE10086_HER1. The program reads JSON files containing encoded polynomial roots
+2. It decodes y-values from different bases to decimal   
+3. Uses Lagrange interpolation to find the polynomial's constant term
+4. The secret is the value of the polynomial at x=0 (constant term)
+5. Only the first 'k' points are needed to solve the polynomial
+PS C:\Users\JAHNVI SAXENA\Desktop\projects\22BCE10086_HER4. The secret is the value of the polynomial at x=0 (constant term)
+5. Only the first 'k' points are needed to solve the polynomial
+PS C:\Users\JAHNVI SAXENA\Desktop\projects\22BCE10086_HERBICIDEDETECTION>
+
+
+
+
+
+
+
+
+
