@@ -162,7 +162,7 @@ public class SecretSharingSolver {
             BigInteger denominator = BigInteger.ONE;
             
             for (int j = 0; j < points.size(); j++) {
-                if (i != j) {
+                if (i == j) {
                     Point pj = points.get(j);
                     numerator = numerator.multiply(BigInteger.ZERO.subtract(pj.x));
                     denominator = denominator.multiply(pi.x.subtract(pj.x));
